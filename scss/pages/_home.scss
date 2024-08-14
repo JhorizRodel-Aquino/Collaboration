@@ -2,9 +2,7 @@
 @use "../abstract/" as *;
 
 .homeServices {
-    &__wrapper {
-        @include evenGrid(4)
-    }
+  &__wrapper {
+    @include evenGrid(4, 1rem);
+  }
 }
-
-

@@ -2266,7 +2266,6 @@ p {
 }
 
 .btn {
-<<<<<<< HEAD
   padding: 0.6rem;
   background-color: #f8565d;
   border: 1px solid transparent;
@@ -2279,12 +2278,10 @@ p {
 }
 .btn.bg--bilog {
   width: 1rem;
-=======
   padding: 16px 32px;
   background-color: #f8565d;
   color: #fff;
   font-size: 1.28rem;
->>>>>>> Aquino
 }
 .btn:hover {
   background-color: #fff;
@@ -2447,6 +2444,3 @@ p {
     justify-content: center;
   }
 }
-.homeServices__wrapper {
-  @imclude;
-}/*# sourceMappingURL=main.min.css.map */
