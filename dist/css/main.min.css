@@ -2318,12 +2318,15 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 8.8rem;
+  margin-right: 8.95rem;
+  gap: 0.3rem;
 }
 .header__nav a {
-  padding: 1rem 0.8rem;
+  padding: 1rem 0.65rem;
+  padding-bottom: 10;
   font-size: 1.24rem;
   font-family: "Ubuntu Condensed", normal;
+  border-bottom: 2px solid #fff;
 }
 
 .footer__wrapper {
