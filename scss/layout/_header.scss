@@ -2,91 +2,14 @@
 @use "../base/" as *;
 
 .header {
-  padding: 1rem 0;
-  position: fixed;
-  width: 100%;
-  z-index: 9999;
-  box-shadow: rgba(227, 49, 10, 0.1) 0px 4px 12px;
-  &__wrapper {
-    @include between;
-  }
-  &__logo img {
-    width: 10rem;
-    height: 3rem;
-  }
-  &__nav {
-    display: flex;
-    gap: 1rem;
-    li a {
-      color: $clr--light;
-      &:hover {
-        color: $clr--secondary;
-      }
-    }
-  }
-}
-
-.toggle__menu {
-  display: none;
-  span {
-    background-color: $clr--light;
-    width: 2.5rem;
-    height: 0.4rem;
-    display: block;
-    border-radius: 1rem;
-  }
-}
-
-@include mediaQuery(520px) {
-  .toggle__menu {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-
-  .header__nav {
     position: fixed;
-    top: -5rem;
-    height: 100vh;
     width: 100%;
-    background-color: $clr--primary;
-    flex-direction: column;
-    text-align: center;
-    right: -100%;
-    transform: translateY(-20rem);
-    margin-top: 30rem;
-    z-index: 9999;
-    transition: all 0.5s ease;
-    justify-content: center;
-  }
-
-  .header__nav.open {
-    right: 0;
-    transition: all 0.5s ease;
-  }
-
-  .toggle__menu.open span:first-child {
-    transform: translate(0, 10px) rotate(585deg);
-    transition: all 0.5s ease;
-  }
-
-  .toggle__menu.open span:nth-child(2) {
-    opacity: 0;
-    transition: all 0.5s ease;
-  }
-  .toggle__menu.open span:last-child {
-    transform: translate(0, -13px) rotate(-585deg);
-    transition: all 0.5s ease;
-  }
-
-  .header__branding {
-    gap: 1.5rem;
-  }
-
-  .container {
-    width: 100%;
-    max-width: 48rem;
-    margin: 0 auto;
-    padding: 0 3rem;
-  }
+    background-color: green;
+    &__wrapper {
+        @include between;
+    }
+    &__logo {
+        width: 18.799rem;
+        height: 19rem;
+    }
 }
