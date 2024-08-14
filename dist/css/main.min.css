@@ -26,11 +26,11 @@
 }
 
 .bg--secondary {
-  background-color: #fa858a;
+  background-color: #f8565d;
 }
 
 .text--secondary {
-  color: #fa858a;
+  color: #f8565d;
 }
 
 .text--center {
@@ -2250,7 +2250,7 @@ img {
 
 .btn {
   padding: 1.6rem 3.2rem;
-  background-color: #fa858a;
+  background-color: #f8565d;
   font-size: 1rem;
 }
 .btn:hover {
@@ -2277,7 +2277,7 @@ img {
   border: none;
 }
 .tns-nav-active {
-  background-color: #fa858a;
+  background-color: #f8565d;
 }
 
 #controls {
@@ -2285,7 +2285,7 @@ img {
 }
 
 .prev, .next {
-  color: #fa858a;
+  color: #f8565d;
   font-size: 2rem;
   position: relative;
   bottom: 16rem;
@@ -2336,7 +2336,7 @@ img {
   margin-bottom: 1rem;
 }
 .footer span {
-  color: #fa858a;
+  color: #f8565d;
 }
 .footer ul li {
   margin-bottom: 1rem;
@@ -2346,7 +2346,7 @@ img {
   color: #fff;
 }
 .footer ul a:hover {
-  color: #fa858a;
+  color: #f8565d;
 }
 .footer__subscribe {
   margin-bottom: 1rem;
@@ -2356,7 +2356,7 @@ img {
   width: 20rem;
   padding: 0.7rem 1rem;
   background-color: transparent;
-  border: 1px solid #fa858a;
+  border: 1px solid #f8565d;
   border-radius: 4rem;
 }
 .footer__subscribe input:enabled {
