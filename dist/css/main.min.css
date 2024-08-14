@@ -26,11 +26,11 @@
 }
 
 .bg--secondary {
-  background-color: #fa858a;
+  background-color: #f8565d;
 }
 
 .text--secondary {
-  color: #fa858a;
+  color: #f8565d;
 }
 
 .text--center {
@@ -2231,7 +2231,7 @@ img {
   width: 100%;
   max-width: 100rem;
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 0 6rem;
 }
 
 @media screen and (max-width: 520px) {
@@ -2248,14 +2248,23 @@ img {
   list-style: none;
 }
 
-.btn {
+.btn, .btn.bg--bilog {
   padding: 1.6rem 3.2rem;
-  background-color: #fa858a;
+  background-color: #f8565d;
+  border: 1px solid transparent;
   font-size: 1rem;
 }
-.btn:hover {
+.btn.bg--bilog {
   background-color: #fff;
+  width: 100%;
+  border-radius: 50%;
   color: #26252a;
+  font-weight: 600;
+}
+.btn.bg--bilog:hover {
+  background-color: #fff;
+  border: 1px solid transparent;
+  color: #f8565d;
 }
 
 .tns-outer {
@@ -2277,7 +2286,7 @@ img {
   border: none;
 }
 .tns-nav-active {
-  background-color: #fa858a;
+  background-color: #f8565d;
 }
 
 #controls {
@@ -2285,7 +2294,7 @@ img {
 }
 
 .prev, .next {
-  color: #fa858a;
+  color: #f8565d;
   font-size: 2rem;
   position: relative;
   bottom: 16rem;
@@ -2300,11 +2309,15 @@ img {
 .next {
   left: 80rem;
 }
+@media screen and (max-width: 520px) {
+  .next {
+    display: none;
+  }
+}
 
 .header {
   position: fixed;
   width: 100%;
-  background-color: green;
 }
 .header__wrapper {
   display: flex;
@@ -2312,8 +2325,19 @@ img {
   align-items: center;
 }
 .header__logo {
-  width: 18.799rem;
-  height: 19rem;
+  width: 187.99px;
+  height: 190px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 8.8rem;
+}
+.header__nav a {
+  padding: 1rem 0.8rem;
+  font-size: 1.24rem;
+  font-family: "Ubuntu Condensed", normal;
 }
 
 .footer__wrapper {
@@ -2326,7 +2350,7 @@ img {
   margin-bottom: 1rem;
 }
 .footer span {
-  color: #fa858a;
+  color: #f8565d;
 }
 .footer ul li {
   margin-bottom: 1rem;
@@ -2336,7 +2360,7 @@ img {
   color: #fff;
 }
 .footer ul a:hover {
-  color: #fa858a;
+  color: #f8565d;
 }
 .footer__subscribe {
   margin-bottom: 1rem;
@@ -2346,7 +2370,7 @@ img {
   width: 20rem;
   padding: 0.7rem 1rem;
   background-color: transparent;
-  border: 1px solid #fa858a;
+  border: 1px solid #f8565d;
   border-radius: 4rem;
 }
 .footer__subscribe input:enabled {
@@ -2384,14 +2408,22 @@ img {
     justify-content: center;
   }
 }
+.services {
+  padding: 11.9rem 0;
+}
 .services__title h2 {
   font-family: "Ubuntu", normal;
 }
-.services__wrapper {
+.services__baraha {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 7rem;
   align-items: center;
   width: 100%;
+}
+.services__title h2 {
+  font-size: 40px;
+  font-family: "Ubuntu Condensed", normal;
+  font-weight: 150;
 }/*# sourceMappingURL=main.min.css.map */

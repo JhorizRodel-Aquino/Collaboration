@@ -3,9 +3,22 @@
 .btn {
   padding: 1.6rem 3.2rem;
   background-color: $clr--secondary;
+  border: 1px solid transparent;
   font-size: 1rem;
-  &:hover {
+  
+
+  &.bg--bilog {
+    @extend .btn;
     background-color: $clr--light;
+    width: 100%;
+    border-radius: 50%;
     color: $clr--dark;
+    font-weight: 600;
+    &:hover{
+      background-color: $clr--light;
+      border: 1px solid transparent;
+      color: $clr--secondary;
+    }
+    
   }
 }
