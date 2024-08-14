@@ -2302,7 +2302,6 @@ img {
 }
 
 .header {
-  position: fixed;
   width: 100%;
 }
 .header__wrapper {
@@ -2393,4 +2392,21 @@ img {
   .footer__social {
     justify-content: center;
   }
+}
+.blog {
+  padding: 5rem 0;
+}
+.blog h3 {
+  font-size: 1.3rem;
+}
+.blog__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.blog__content {
+  display: flex;
+  text-align: justify;
 }/*# sourceMappingURL=main.min.css.map */
