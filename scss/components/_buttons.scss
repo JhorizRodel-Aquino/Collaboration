@@ -1,7 +1,7 @@
 @use "../abstract/" as *;
 
 .btn {
-  padding: 0.6rem;
+  padding: 1rem;
   background-color: $clr--secondary;
   border: 1px solid transparent;
   font-size: 1rem;
@@ -14,9 +14,9 @@
   border-radius: 50%;
   color: $clr--secondary;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 13px;    
   &:hover {
-    background-color: $clr--light;
+    background-color: $clr--dark;
     border: 1px solid transparent;
     color: $clr--secondary;
   }

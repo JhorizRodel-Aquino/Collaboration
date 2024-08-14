@@ -105,9 +105,14 @@ img {
 
 .container {
   width: 100%;
-  max-width: 100rem;
+  max-width: 88rem;
   margin: 0 auto;
-  padding: 0 6rem;
+  padding: 0 7rem;
+}
+.container__header {
+  width: 100%;
+  max-width: 88rem;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 520px) {
