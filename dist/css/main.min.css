@@ -2383,4 +2383,15 @@ img {
   .footer__social {
     justify-content: center;
   }
+}
+.services__title h2 {
+  font-family: "Ubuntu", normal;
+}
+.services__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 7rem;
+  align-items: center;
+  width: 100%;
 }/*# sourceMappingURL=main.min.css.map */

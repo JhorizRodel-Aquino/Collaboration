@@ -1,0 +1,18 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+
+.services {
+    &__title{
+        h2 {
+            font-family: $font-primary;
+        }
+    }
+    &__wrapper {
+        @include evenGrid(3, 2rem);
+        padding: 7rem;
+        align-items: center;
+        width: 100%;
+
+    }
+}
