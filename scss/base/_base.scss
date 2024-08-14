@@ -2,11 +2,12 @@
 @use "./typography" as *;
 
 body {
-    color: $clr--light;
-    font-family: $font-primary;
-    font-size: 2rem;
-    overflow-x: hidden;
-    line-height: 1.4;
+  color: $clr--light;
+  font-family: $font-primary;
+  font-size: 2rem;
+  overflow-x: hidden;
+  line-height: 1.4;
+  background-color: $clr--dark;
 }
 
 html,
@@ -68,20 +69,20 @@ thead,
 tr,
 th,
 td {
-font-family: $font-primary;
-border: 0;
-font-size: 100%;
-margin: 0;
-outline: 0;
-padding: 0;
-vertical-align: baseline;
-scroll-behavior: smooth;
-list-style: none;
+  font-family: $font-primary;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  list-style: none;
 }
 
 table {
-border-collapse: collapse;
-border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 article,
@@ -91,29 +92,27 @@ header,
 nav,
 section,
 time {
-display: block;
+  display: block;
 }
 a {
-text-decoration: none;
+  text-decoration: none;
+  line-height: 0;
 }
 img {
-max-width: 100%;
-width: 100%;
+  max-width: 100%;
+  width: 100%;
 }
 
 .container {
-width: 100%;
-max-width: 100rem;
-margin: 0 auto;
-padding: 0 5rem;
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 5rem;
 }
-
 
 @media screen and (max-width: 520px) {
   .container {
     max-width: 48rem;
     padding: 0 2rem;
   }
-
-
 }
