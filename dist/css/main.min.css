@@ -2329,7 +2329,7 @@ h6 {
 
 body {
   color: #fff;
-  font-family: "Ubuntu", normal;
+  font-family: "Ubuntu Condensed", normal;
   font-size: 2rem;
   overflow-x: hidden;
   line-height: 1.4;
@@ -2395,7 +2395,6 @@ thead,
 tr,
 th,
 td {
-  font-family: "Ubuntu", normal;
   border: 0;
   font-size: 100%;
   margin: 0;
@@ -2444,12 +2443,30 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 520px) {
-  .container {
-    max-width: 48rem;
-    padding: 0 2rem;
-  }
+h1 {
+  font-weight: bold;
 }
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -2459,6 +2476,7 @@ img {
 }
 
 .btn {
+<<<<<<< HEAD
   padding: 1rem;
   background-color: #f8565d;
   border: 1px solid transparent;
@@ -2471,6 +2489,12 @@ img {
 }
 .btn.bg--bilog {
   width: 1rem;
+=======
+  padding: 16px 32px;
+  background-color: #f8565d;
+  color: #fff;
+  font-size: 1.28rem;
+>>>>>>> Aquino
 }
 .btn:hover {
   background-color: #26252a;
@@ -2527,7 +2551,6 @@ img {
 }
 
 .header {
-  position: fixed;
   width: 100%;
 }
 .header__wrapper {
@@ -2543,12 +2566,27 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 8.8rem;
+  margin-right: 8.95rem;
+  gap: 0.3rem;
 }
 .header__nav a {
-  padding: 1rem 0.8rem;
-  font-size: 1.24rem;
+  padding: 1rem 0.71rem 5.3rem 0.71rem;
+  font-size: 1.2rem;
   font-family: "Ubuntu Condensed", normal;
+  position: relative;
+}
+.header__nav a::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 0.65rem;
+  left: 0;
+  background-color: #f8565d;
+  transition: all ease-out 0.2s;
+}
+.header__nav a:hover::after {
+  width: 100%;
 }
 
 .footer__wrapper {
@@ -2620,94 +2658,26 @@ img {
   }
 }
 .services {
-  padding-top: 11.9rem;
-  padding-bottom: 2rem;
+  padding: 11.9rem 0;
 }
 .services__title {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  align-items: center;
-  justify-items: space-between;
-  border-bottom: 1px solid #fff;
-  padding-top: 6rem;
-  padding-bottom: 1rem;
-  margin-bottom: 2.5rem;
 }
 .services__title h2 {
-  font-size: 60px;
-  font-family: "Ubuntu Condensed", normal;
-  font-weight: 150;
+  font-family: "Ubuntu", normal;
 }
 .services__baraha {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  width: 100%;
+  padding: 7rem;
   align-items: center;
-  padding-bottom: 8.5rem;
+  width: 100%;
 }
-.services__button {
-  display: flex;
-  justify-content: end;
-  gap: 0.2rem;
-}
-.services a {
-  display: flex;
-  justify-content: center;
-}
-.services__card h4 {
-  margin-top: 1.5rem;
-  color: #f8565d;
-  font-weight: 100;
-  font-size: 13px;
-}
-.services__card p {
-  font-size: 13px;
-  line-height: 1.5rem;
-  font-weight: 550;
-}
-
-.price {
-  color: #26252a;
-}
-.price p {
-  margin-top: 0.7rem;
-}
-.price h2 {
-  color: #26252a;
-  font-size: 35px;
+.services__title h2 {
+  font-size: 40px;
   font-family: "Ubuntu Condensed", normal;
   font-weight: 150;
-  border-bottom: 1px solid #26252a;
-  padding-bottom: 0.5rem;
-}
-.price h3 {
-  font-size: 13px;
-  font-weight: 150;
-  color: #f8565d;
-  border-bottom: 1px solid #26252a;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-}
-.price h4 {
-  color: #26252a;
-  font-weight: 100;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-}
-.price__wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-  padding: 6rem 0;
-}
-.price__report {
-  max-width: 32%;
-}
-.price__halaga {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  line-height: 2rem;
 }/*# sourceMappingURL=main.min.css.map */

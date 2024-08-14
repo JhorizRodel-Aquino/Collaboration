@@ -1,0 +1,19 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.blog {
+    padding: 5rem 0;
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    &__wrapper {
+        @include centerAll;
+        flex-direction: column;
+    }
+    &__content {
+        display: flex;
+        text-align: justify;
+    }
+}
