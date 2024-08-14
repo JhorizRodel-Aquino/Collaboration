@@ -33,6 +33,14 @@
   color: #f8565d;
 }
 
+.bg--tertiary {
+  background-color: #343438;
+}
+
+.text--tertiary {
+  color: #343438;
+}
+
 .text--center {
   text-align: center;
 }
@@ -2228,9 +2236,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 100rem;
+  max-width: 88rem;
   margin: 0 auto;
-  padding: 0 6rem;
+  padding: 0 7rem;
 }
 
 h1 {
@@ -2253,7 +2261,7 @@ h4 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: lighter;
 }
 
@@ -2266,12 +2274,12 @@ p {
 }
 
 .btn {
-  padding: 16px 32px;
+  padding: 13.5px 32px;
   background-color: #f8565d;
   color: #fff;
   font-size: 1.28rem;
 }
-.btn:hover {
+.btn.with-hover:hover {
   background-color: #fff;
   color: #26252a;
 }
@@ -2321,6 +2329,9 @@ p {
 
 .header {
   width: 100%;
+}
+.header .container {
+  padding: 0;
 }
 .header__wrapper {
   display: flex;
@@ -2427,5 +2438,102 @@ p {
   }
 }
 .homeServices__wrapper {
-  @imclude;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.homeServices__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 5rem 0;
+  position: relative;
+}
+.homeServices__card h3 {
+  padding-bottom: 2rem;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.0352941176);
+  width: 100%;
+  z-index: 100;
+}
+.homeServices__card i {
+  font-size: 3rem;
+  z-index: 100;
+  transition: all ease-out 0.4s;
+}
+.homeServices__card p {
+  font-family: "Ubuntu", normal;
+  z-index: 100;
+}
+.homeServices__card div {
+  margin-top: 1.7rem;
+  z-index: 100;
+}
+.homeServices__card div a {
+  transition: all ease-out 0.4s;
+}
+.homeServices__card span {
+  height: 88%;
+  width: 88%;
+  position: absolute;
+  transition: all ease-out 0.4s;
+}
+.homeServices__card:hover span {
+  background-color: #303033;
+  height: 108%;
+  width: 108%;
+}
+.homeServices__card:hover i {
+  color: #f8565d;
+}
+.homeServices__card:hover a {
+  color: #26252a;
+  background-color: #fff;
+}
+
+.homeWhat {
+  color: #26252a;
+}
+.homeWhat__wrapper {
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+.homeWhat__card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.homeWhat__card h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(38, 37, 42, 0.1529411765);
+  color: #26252a;
+}
+.homeWhat__card p {
+  font-family: "Ubuntu", normal;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(38, 37, 42, 0.1529411765);
+}
+.homeWhat__card p:last-child {
+  padding: 0;
+  border: none;
+}
+.homeWhat__card .small {
+  font-size: 0.8rem;
+}
+
+.RTA__wrapper, .RTA div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+.RTA div {
+  gap: 2rem;
+  align-items: start;
 }/*# sourceMappingURL=main.min.css.map */
