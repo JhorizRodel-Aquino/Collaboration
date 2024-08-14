@@ -2,9 +2,9 @@
 @use "../abstract/" as *;
 
 .homeServices {
+  margin: 2rem 0;
   &__wrapper {
     @include evenGrid(4, 2rem);
-    margin: 2rem 0;
   }
   &__card {
     @include centerAll;
@@ -58,9 +58,10 @@
 }
 
 .homeWhat {
+  margin: 2rem 0;
   color: $clr--dark;
   &__wrapper {
-    padding: 5rem 0;
+    padding: 6rem 0;
     @include evenGrid(2, 2rem);
     align-items: start;
   }
@@ -74,6 +75,8 @@
     }
     p {
       font-family: $font-primary;
+      font-size: 15px;
+      line-height: 24px;
       padding-bottom: 1.2rem;
       border-bottom: 1px solid #26252a27;
       &:last-child {
@@ -81,21 +84,34 @@
         border: none;
       }
     }
-    .small {
-        font-size: 0.8rem;
+    small {
+      @extend p;
+      font-size: 0.8rem;
+      color: $clr--secondary;
     }
   }
 }
 
-.RTA {
-    &__wrapper, div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 3rem;
+.RAP {
+  margin: 2rem 0;
+  &__wrapper {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    h2 {
+      font-size: 126px;
+      line-height: 110px;
     }
-    div {
-        gap: 2rem;
-        align-items: start;
+  }
+  &__button {
+    @include centerAll;
+    justify-content: start;
+    gap: 1rem;
+
+    i {
+      font-size: 30px;
     }
+  }
 }
