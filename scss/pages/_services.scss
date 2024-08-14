@@ -1,0 +1,29 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.services {
+  padding: 11.9rem 0;
+  &__title {
+    @include evenGrid(2, 2rem);
+    h2 {
+      font-family: $font-primary;
+    }
+    // a {
+    //   position: relative;
+    // }
+
+  }
+  &__baraha {
+    @include evenGrid(3, 2rem);
+    padding: 7rem;
+    align-items: center;
+    width: 100%; 
+  }
+  &__title { 
+    h2 {
+      font-size: 40px;
+      font-family: $font-secondary;
+      font-weight: 150;
+    }
+  }
+}
