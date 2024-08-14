@@ -2248,20 +2248,21 @@ img {
   list-style: none;
 }
 
-.btn, .btn.bg--bilog {
-  padding: 1.6rem 3.2rem;
+.btn {
+  padding: 0.6rem;
   background-color: #f8565d;
   border: 1px solid transparent;
   font-size: 1rem;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #f8565d;
+  font-weight: 600;
+  font-size: 10px;
 }
 .btn.bg--bilog {
-  background-color: #fff;
-  width: 100%;
-  border-radius: 50%;
-  color: #26252a;
-  font-weight: 600;
+  width: 1rem;
 }
-.btn.bg--bilog:hover {
+.btn:hover {
   background-color: #fff;
   border: 1px solid transparent;
   color: #f8565d;
@@ -2410,6 +2411,11 @@ img {
 }
 .services {
   padding: 11.9rem 0;
+}
+.services__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .services__title h2 {
   font-family: "Ubuntu", normal;

@@ -4,9 +4,16 @@
 .services {
   padding: 11.9rem 0;
   &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     h2 {
       font-family: $font-primary;
     }
+    // a {
+    //   position: relative;
+    // }
+
   }
   &__baraha {
     @include evenGrid(3, 2rem);
