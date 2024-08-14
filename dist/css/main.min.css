@@ -2413,9 +2413,9 @@ img {
   padding: 11.9rem 0;
 }
 .services__title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 .services__title h2 {
   font-family: "Ubuntu", normal;
