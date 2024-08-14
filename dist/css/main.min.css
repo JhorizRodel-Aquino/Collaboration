@@ -2125,7 +2125,7 @@ h6 {
 
 body {
   color: #fff;
-  font-family: "Ubuntu", normal;
+  font-family: "Ubuntu Condensed", normal;
   font-size: 2rem;
   overflow-x: hidden;
   line-height: 1.4;
@@ -2191,7 +2191,6 @@ thead,
 tr,
 th,
 td {
-  font-family: "Ubuntu", normal;
   border: 0;
   font-size: 100%;
   margin: 0;
@@ -2239,30 +2238,25 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: lighter;
 }
 
 h3 {
-  font-size: 2.2rem;
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: lighter;
 }
 
 h4 {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: lighter;
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 0.9rem;
+  font-weight: lighter;
 }
 
-@media screen and (max-width: 520px) {
-  .container {
-    max-width: 48rem;
-    padding: 0 2rem;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -2325,7 +2319,6 @@ p {
 }
 
 .header {
-  position: fixed;
   width: 100%;
 }
 .header__wrapper {
@@ -2431,4 +2424,7 @@ p {
   .footer__social {
     justify-content: center;
   }
+}
+.homeServices a {
+  font-size: 1.28rem;
 }/*# sourceMappingURL=main.min.css.map */

@@ -2,7 +2,6 @@
 @use "../base/" as *;
 
 .header {
-  position: fixed;
   width: 100%;
   &__wrapper {
     @include between;
