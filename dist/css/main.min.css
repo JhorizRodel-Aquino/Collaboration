@@ -2266,9 +2266,10 @@ p {
 }
 
 .btn {
-  padding: 1.6rem 3.2rem;
+  padding: 16px 32px;
   background-color: #f8565d;
-  font-size: 1rem;
+  color: #fff;
+  font-size: 1.28rem;
 }
 .btn:hover {
   background-color: #fff;
@@ -2425,6 +2426,6 @@ p {
     justify-content: center;
   }
 }
-.homeServices a {
-  font-size: 1.28rem;
+.homeServices__wrapper {
+  @imclude;
 }/*# sourceMappingURL=main.min.css.map */

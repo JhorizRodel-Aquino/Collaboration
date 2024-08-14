@@ -2,7 +2,9 @@
 @use "../abstract/" as *;
 
 .homeServices {
-    a {
-        font-size: 1.28rem;
+    &__wrapper {
+        @include evenGrid(4)
     }
 }
+
+
