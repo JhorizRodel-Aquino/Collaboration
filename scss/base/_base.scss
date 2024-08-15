@@ -95,7 +95,7 @@ time {
 }
 a {
   text-decoration: none;
-  line-height: 0;
+
 }
 img {
   max-width: 100%;
@@ -104,14 +104,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 88rem;
+  max-width: 87rem;
   margin: 0 auto;
   padding: 0 7rem;
-}
-.container__header {
-  width: 100%;
-  max-width: 88rem;
-  margin: 0 auto;
 }
 
 h1 {
@@ -134,7 +129,7 @@ h4 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: lighter;
 }
 

@@ -17,13 +17,16 @@
   font-weight: 600;
   font-size: 13px;    
 =======
-  padding: 16px 32px;
+  padding: 13.5px 32px;
   background-color: $clr--secondary;
   color: $clr--light;
   font-size: 1.28rem;
-  &:hover {
-    background-color: $clr--dark;
+
+  &.with-hover {
+    &:hover {
+      background-color: $clr--dark;
     border: 1px solid transparent;
-    color: $clr--secondary;
+      color: $clr--secondary;
+    }
   }
 }
