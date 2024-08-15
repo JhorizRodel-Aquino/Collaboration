@@ -39,5 +39,8 @@
 
 .next {
   @extend .prev;
-  left: 80rem;
+    left: 80rem;
+    @include mediaQuery(520px){
+        display: none;
+    }
 }

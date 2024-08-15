@@ -59,6 +59,9 @@ $alignments: center, right, left, justify;
   .py--#{$i} {
     padding: $i + rem 0;
   }
+  .px--#{$i} {
+    padding: 0 $i + rem;
+  }
 }
 
 @for $i from 1 through 5 {

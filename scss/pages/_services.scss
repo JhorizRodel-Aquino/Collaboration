@@ -1,0 +1,92 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.services {
+  padding-top: 11.9rem;
+  padding-bottom: 2rem;
+
+  &__title {
+    @include evenGrid(2, 2rem);
+    align-items: center;
+    justify-items: space-between;
+    border-bottom: 1px solid $clr--light;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
+    h2 {
+      font-size: 60px;
+      font-family: $font-secondary;
+      font-weight: 150;
+    }
+  }
+  &__baraha {
+    @include evenGrid(3, 2rem);
+    width: 100%;
+    align-items: center;
+    padding-bottom: 8.5rem;
+  }
+  &__button {
+    display: flex;
+    justify-content: end;
+    gap: 0.2rem;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+  }
+  &__card {
+    h4 {
+      margin-top: 1.5rem;
+      color: $clr--secondary;
+      font-weight: 100;
+      font-size: 13px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 1.5rem;
+      font-weight: 550;
+    }
+  }
+}
+
+.price {
+  p {
+    margin-top: 0.7rem;
+  }
+  h2 {
+    color: $clr--dark;
+    font-size: 35px;
+    font-family: $font-secondary;
+    font-weight: 150;
+    border-bottom: 1px solid $clr--dark;
+    padding-bottom: 0.5rem;
+  }
+  h3 {
+    font-size: 13px;
+    font-weight: 150;
+    color: $clr--secondary;
+    border-bottom: 1px solid $clr--dark;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  h4 {
+    color: $clr--dark;
+    font-weight: 100;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  color: $clr--dark;
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 6rem 0;
+  }
+  &__report {
+    max-width: 32%;
+  }
+  &__halaga {
+    @include evenGrid(3, 2rem);
+    line-height: 2rem;
+  }
+}

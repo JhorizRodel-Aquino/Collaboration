@@ -25,6 +25,7 @@
       font-size: 1.2rem;
       font-family: $font-secondary;
       position: relative;
+      color: $clr--light;
       &::after {
         content: " ";
         position: absolute;
@@ -34,6 +35,7 @@
         left: 0;
         background-color: $clr--secondary;
         transition: all ease-out 0.2s;
+        
       }
       &:hover::after {
         width: 100%;
