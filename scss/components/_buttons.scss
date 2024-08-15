@@ -1,13 +1,32 @@
 @use "../abstract/" as *;
 
 .btn {
-  padding: 16px 32px;
+<<<<<<< HEAD
+  padding: 1rem;
+  background-color: $clr--secondary;
+  border: 1px solid transparent;
+  font-size: 1rem;
+
+  &.bg--bilog {
+    width: 1rem;
+  }
+  @extend .btn;
+  background-color: $clr--light;
+  border-radius: 50%;
+  color: $clr--secondary;
+  font-weight: 600;
+  font-size: 13px;    
+=======
+  padding: 13.5px 32px;
   background-color: $clr--secondary;
   color: $clr--light;
   font-size: 1.28rem;
-  &:hover {
-    background-color: $clr--light;
+
+  &.with-hover {
+    &:hover {
+      background-color: $clr--dark;
     border: 1px solid transparent;
-    color: $clr--secondary;
+      color: $clr--secondary;
+    }
   }
 }
