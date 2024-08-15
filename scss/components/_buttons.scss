@@ -1,31 +1,55 @@
 @use "../abstract/" as *;
 
 .btn {
-  padding: 1rem;
-  background-color: $clr--secondary;
-  border: 1px solid transparent;
-  font-size: 1rem;
-
-  &.bg--bilog {
-    width: 1rem;
-  }
-  @extend .btn;
-  background-color: $clr--light;
-  border-radius: 50%;
-  color: $clr--secondary;
-  font-weight: 600;
-  font-size: 13px;
-
   padding: 13.5px 32px;
   background-color: $clr--secondary;
   color: $clr--light;
   font-size: 1.28rem;
+  transition: all 0.3s ease-in-out;
 
   &.with-hover {
     &:hover {
+      background-color: $clr--light;
+      color: $clr--dark;
+    }
+  }
+  &.with-hover--transparent {
+    &:hover {
+      background-color: transparent;
+      color: $clr--dark;
+    }
+  }
+}
+
+.btn__circle {
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+  &.slider {
+    background-color: $clr--light;
+    color: $clr--secondary;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 12px;
+    &:hover {
       background-color: $clr--dark;
-      border: 1px solid transparent;
       color: $clr--secondary;
+    }
+  }
+  &.footer {
+    font-size: 15px;
+    background-color: $clr--dark;
+    color: $clr--light;
+    border: 2px solid $clr--light;
+    padding: 13px;
+    i {
+      width: 17px;
+      height: 17px;
+      text-align: center;
+    }
+    &:hover {
+      background-color: $clr--secondary;
+      color: $clr--light;
+      border-color: $clr--secondary;
     }
   }
 }
