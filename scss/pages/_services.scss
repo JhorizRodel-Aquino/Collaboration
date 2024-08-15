@@ -2,19 +2,17 @@
 @use "../base/" as *;
 
 .services {
-  padding-top: 11.9rem;
-  padding-bottom: 2rem;
-
+  &__wrapper {
+    padding: 6rem 0;
+  }
   &__title {
     @include evenGrid(2, 2rem);
     align-items: center;
     justify-items: space-between;
     border-bottom: 1px solid $clr--light;
-    padding-top: 6rem;
     padding-bottom: 1rem;
     margin-bottom: 2.5rem;
     h2 {
-      font-size: 60px;
       font-family: $font-secondary;
       font-weight: 150;
     }
@@ -23,7 +21,6 @@
     @include evenGrid(3, 2rem);
     width: 100%;
     align-items: center;
-    padding-bottom: 8.5rem;
   }
   &__button {
     display: flex;
@@ -36,20 +33,28 @@
   }
   &__card {
     h4 {
-      margin-top: 1.5rem;
+      margin: 1.5rem 0 0.3rem 0;
       color: $clr--secondary;
-      font-weight: 100;
-      font-size: 13px;
+      font-family: $font-primary;
     }
     p {
-      font-size: 13px;
-      line-height: 1.5rem;
-      font-weight: 550;
+      font-family: $font-primary;
+      line-height: 1.4rem;
+    }
+    .three-dots {
+      display: inline;
+      color: $clr--light;
+      text-decoration: underline;
+      &:hover {
+        color: $clr--secondary;
+        transition: ease-in 0.3s;
+      }
     }
   }
 }
 
 .price {
+  margin: 2rem 0;
   p {
     margin-top: 0.7rem;
   }
@@ -59,7 +64,6 @@
     font-family: $font-secondary;
     font-weight: 150;
     border-bottom: 1px solid $clr--dark;
-    padding-bottom: 0.5rem;
   }
   h3 {
     font-size: 13px;
