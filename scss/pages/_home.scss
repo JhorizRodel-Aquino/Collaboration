@@ -27,13 +27,13 @@
       font-family: $font-primary;
       z-index: 100;
     }
-    div {
+
+    a {
+      transition: all ease-out 0.4s;
       margin-top: 1.7rem;
       z-index: 100;
-      a {
-        transition: all ease-out 0.4s;
-      }
     }
+
     span {
       height: 88%;
       width: 88%;

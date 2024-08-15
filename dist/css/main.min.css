@@ -2473,12 +2473,10 @@ p, .homeWhat__card small {
   font-family: "Ubuntu", normal;
   z-index: 100;
 }
-.homeServices__card div {
+.homeServices__card a {
+  transition: all ease-out 0.4s;
   margin-top: 1.7rem;
   z-index: 100;
-}
-.homeServices__card div a {
-  transition: all ease-out 0.4s;
 }
 .homeServices__card span {
   height: 88%;
