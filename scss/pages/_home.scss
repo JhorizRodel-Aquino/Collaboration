@@ -171,5 +171,6 @@
   position: sticky;
   bottom: 2.7rem;
   left: 103.9rem;
+  --offset: 27rem;
+  margin-top: calc(100vh + var(--offset));
 }
-
