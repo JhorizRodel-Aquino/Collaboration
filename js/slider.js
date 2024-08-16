@@ -8,16 +8,7 @@ var homeService2__sldr = tns({
   prevButton: ".homeService2__prev",
   nextButton: ".homeService2__next",
   rewind: true,
-  responsive: {
-    1250: {
-      items: 3,
-    },
-    200: {
-      items: 1,
-    },
-  },
 });
-
 
 var homeBanner__sldr = tns({
   container: ".homeBanner__slider",
@@ -26,13 +17,6 @@ var homeBanner__sldr = tns({
   gutter: 0,
   slideBy: "1",
   axis: "vertical",
-  // responsive: {
-  //   1250: {
-  //     items: 3,
-  //   },
-  //   200: {
-  //     items: 1,
-  //   },
-  // },
+  controls: false,
+  autoplay: true,
 });
-

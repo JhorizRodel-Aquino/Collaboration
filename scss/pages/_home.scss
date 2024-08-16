@@ -1,23 +1,13 @@
 @use "../base/" as *;
 @use "../abstract/" as *;
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .homeBanner {
   &__wrapper {
     position: relative;
+    max-height: 560px;
   }
   .container {
     padding: 0;
-  }
-  &__slider {
   }
   &__card {
     height: 35rem;
@@ -43,7 +33,6 @@
 }
 
 .homeServices {
-  animation: fadeIn 1s ease-in-out both;
   margin: 2rem 0;
   &__wrapper {
     @include evenGrid(4, 2rem);
@@ -99,8 +88,28 @@
   }
 }
 
+.homeService2 {
+  margin: 2rem 0;
+  &__wrapper {
+    padding: 6rem 0;
+  }
+  &__title {
+    @include between;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #ffffff3b;
+  }
+  &__card {
+    img {
+      margin: 2rem 0 1.2rem 0;
+    }
+    p {
+      font-family: $font-primary;
+      line-height: 1.5rem;
+    }
+  }
+}
+
 .homeWhat {
-  animation: fadeIn 1s ease-in-out both;
   margin: 2rem 0;
   color: $clr--dark;
   &__wrapper {
@@ -158,30 +167,9 @@
   }
 }
 
-// .back-to-top {
-//   position: fixed;
-//   background-color: green;
-//   right: 12rem;
-//   bottom: 5rem
-// }
-
-.homeService2 {
-  margin: 2rem 0;
-  &__wrapper {
-    padding: 6rem 0;
-  }
-  &__title {
-    @include between;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #ffffff3b;
-  }
-  &__card {
-    img {
-      margin: 2rem 0 1.2rem 0;
-    }
-    p {
-      font-family: $font-primary;
-      line-height: 1.5rem;
-    }
-  }
+.back-to-top {
+  position: sticky;
+  bottom: 2.7rem;
+  left: 103.9rem;
 }
+

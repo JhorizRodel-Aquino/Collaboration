@@ -2558,9 +2558,6 @@ p, .homeWhat__card small {
 .homeBanner .tns-nav-active {
   background-color: #3e3e43;
 }
-.homeBanner .tns-controls {
-  display: none;
-}
 
 .header {
   width: 100%;
@@ -2604,7 +2601,7 @@ p, .homeWhat__card small {
   background-color: #f8565d;
   transition: all ease-out 0.2s;
 }
-.header__nav a:hover::after {
+.header__nav a:hover::after, .header__nav a.active::after {
   width: 100%;
 }
 
@@ -2702,16 +2699,9 @@ p, .homeWhat__card small {
   margin-top: 5rem;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .homeBanner__wrapper {
   position: relative;
+  max-height: 560px;
 }
 .homeBanner .container {
   padding: 0;
@@ -2737,7 +2727,6 @@ p, .homeWhat__card small {
 }
 
 .homeServices {
-  animation: fadeIn 1s ease-in-out both;
   margin: 2rem 0;
 }
 .homeServices__wrapper {
@@ -2794,8 +2783,28 @@ p, .homeWhat__card small {
   background-color: #fff;
 }
 
+.homeService2 {
+  margin: 2rem 0;
+}
+.homeService2__wrapper {
+  padding: 6rem 0;
+}
+.homeService2__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.231372549);
+}
+.homeService2__card img {
+  margin: 2rem 0 1.2rem 0;
+}
+.homeService2__card p, .homeService2__card .homeWhat__card small, .homeWhat__card .homeService2__card small {
+  font-family: "Ubuntu", normal;
+  line-height: 1.5rem;
+}
+
 .homeWhat {
-  animation: fadeIn 1s ease-in-out both;
   margin: 2rem 0;
   color: #26252a;
 }
@@ -2858,25 +2867,10 @@ p, .homeWhat__card small {
   font-size: 30px;
 }
 
-.homeService2 {
-  margin: 2rem 0;
-}
-.homeService2__wrapper {
-  padding: 6rem 0;
-}
-.homeService2__title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 0.8rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.231372549);
-}
-.homeService2__card img {
-  margin: 2rem 0 1.2rem 0;
-}
-.homeService2__card p, .homeService2__card .homeWhat__card small, .homeWhat__card .homeService2__card small {
-  font-family: "Ubuntu", normal;
-  line-height: 1.5rem;
+.back-to-top {
+  position: sticky;
+  bottom: 2.7rem;
+  left: 103.9rem;
 }
 
 .services__wrapper {

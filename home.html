@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER -->
@@ -22,8 +23,8 @@
           <a href=""
             ><img src="./img/logo.png" alt="" class="header__logo"
           /></a>
-          <ul class="header__nav">
-            <li><a href="home.html" class="text--light">HOME</a></li>
+          <ul class="header__nav" data-aos="fade-down" data-aos-duration="1000">
+            <li><a href="home.html" class="active text--light">HOME</a></li>
             <li><a href="about.html" class="text--light">ABOUT</a></li>
             <li><a href="services.html" class="text--light">SERVICES</a></li>
             <li><a href="blog.html" class="text--light">BLOG</a></li>
@@ -33,13 +34,6 @@
       </div>
     </header>
 
-    <!-- BACK TO TOP -->
-    <!-- <div class="back-to-top">
-      <a href="#header" class="btn__circle footer">
-        <i class="fa-brands fa-google-plus-g"></i>
-      </a>
-    </div> -->
-
     <!-- HOME BANNER -->
     <section class="homeBanner">
       <div class="container">
@@ -47,15 +41,24 @@
           <div class="homeBanner__slider">
             <div class="homeBanner__card">
               <img src="./img/banner1.jpg" alt="" />
-              <h2 class="">COMPLETE <br> AUTO SERVICE</h2>
+              <h2 class="">
+                COMPLETE <br />
+                AUTO SERVICE
+              </h2>
             </div>
             <div class="homeBanner__card">
               <img src="./img/banner2.jpg" alt="" />
-              <h2>QUALITY CAR <br> MAINTENANCE</h2>
+              <h2>
+                QUALITY CAR <br />
+                MAINTENANCE
+              </h2>
             </div>
             <div class="homeBanner__card">
               <img src="./img/banner3.jpg" alt="" />
-              <h2>FAIR FREINDLY <br> SERVICE</h2>
+              <h2>
+                FAIR FREINDLY <br />
+                SERVICE
+              </h2>
             </div>
           </div>
         </div>
@@ -66,7 +69,11 @@
     <section class="homeServices">
       <div class="container bg--tertiary">
         <div class="homeServices__wrapper">
-          <div class="homeServices__card">
+          <div
+            class="homeServices__card"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <h3>COMPLETE SERVICES</h3>
             <i class="fa-solid fa-gears"></i>
             <p>
@@ -77,7 +84,12 @@
             <a href="" class="btn">MORE</a>
             <span></span>
           </div>
-          <div class="homeServices__card">
+          <div
+            class="homeServices__card"
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-duration="700"
+          >
             <h3>COMPLETE SERVICES</h3>
             <i class="fa-solid fa-droplet"></i>
             <p>
@@ -87,7 +99,12 @@
             <a href="" class="btn">MORE</a>
             <span></span>
           </div>
-          <div class="homeServices__card">
+          <div
+            class="homeServices__card"
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-duration="700"
+          >
             <h3>COMPLETE SERVICES</h3>
             <i class="fa-solid fa-filter"></i>
             <p>
@@ -98,7 +115,11 @@
             <a href="" class="btn">MORE</a>
             <span></span>
           </div>
-          <div class="homeServices__card">
+          <div
+            class="homeServices__card"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <h3>COMPLETE SERVICES</h3>
             <i class="fa-solid fa-wrench"></i>
             <p>
@@ -120,13 +141,17 @@
           <div class="homeService2__title">
             <h2>SERVICES</h2>
 
-            <div class="homeService2__controls" id="homeService2__ctrls">
+            <div
+              class="homeService2__controls"
+              id="homeService2__ctrls"
+              data-aos="fade-up"
+            >
               <a class="homeService2__prev btn__circle slider">←</a>
               <a class="homeService2__next btn__circle slider">→</a>
             </div>
           </div>
           <div class="homeService2__slider">
-            <div class="homeService2__card">
+            <div class="homeService2__card" data-aos="fade-up">
               <img src="./img/homeservices1.jpg" alt="" />
               <p>
                 Cubilipende sollicitudineied leo pharea aumennec in velit veaugn
@@ -134,7 +159,7 @@
                 sceleue vitaepeecon eoc in vel ipsum
               </p>
             </div>
-            <div class="homeService2__card">
+            <div class="homeService2__card" data-aos="fade-up">
               <img src="./img/homeservices1.jpg" alt="" />
               <p>
                 Cubilipende sollicitudineied leo pharea aumennec in velit veaugn
@@ -142,7 +167,7 @@
                 sceleue vitaepeecon eoc in vel ipsum
               </p>
             </div>
-            <div class="homeService2__card">
+            <div class="homeService2__card" data-aos="fade-up">
               <img src="./img/homeservices1.jpg" alt="" />
               <p>
                 Cubilipende sollicitudineied leo pharea aumennec in velit veaugn
@@ -150,7 +175,7 @@
                 sceleue vitaepeecon eoc in vel ipsum
               </p>
             </div>
-            <div class="homeService2__card">
+            <div class="homeService2__card" data-aos="fade-up">
               <img src="./img/homeservices1.jpg" alt="" />
               <p>
                 Cubilipende sollicitudineied leo pharea aumennec in velit veaugn
@@ -158,7 +183,7 @@
                 sceleue vitaepeecon eoc in vel ipsum
               </p>
             </div>
-            <div class="homeService2__card">
+            <div class="homeService2__card" data-aos="fade-up">
               <img src="./img/homeservices1.jpg" alt="" />
               <p>
                 Cubilipende sollicitudineied leo pharea aumennec in velit veaugn
@@ -166,7 +191,7 @@
                 sceleue vitaepeecon eoc in vel ipsum
               </p>
             </div>
-            <div class="homeService2__card">
+            <div class="homeService2__card" data-aos="fade-up">
               <img src="./img/homeservices1.jpg" alt="" />
               <p>
                 Cubilipende sollicitudineied leo pharea aumennec in velit veaugn
@@ -183,7 +208,7 @@
     <section class="homeWhat">
       <div class="container bg--light">
         <div class="homeWhat__wrapper">
-          <div class="homeWhat__card">
+          <div class="homeWhat__card" data-aos="fade-up">
             <h2>WHAT WE DO</h2>
             <p class="mt--2">
               Proin dictum elemum velit terdpibus sceleue vitaepeecon eoc in vel
@@ -200,7 +225,7 @@
               Vestibulum sed ante..
             </p>
           </div>
-          <div class="homeWhat__card">
+          <div class="homeWhat__card" data-aos="fade-down">
             <h2>WHAT US?</h2>
             <p>
               Cubilipende sollicitudineied leo pharea aumennec in velit veaugn
@@ -226,7 +251,7 @@
     <!-- RAP -->
     <section class="RAP">
       <div class="container bg--tertiary">
-        <div class="RAP__wrapper">
+        <div class="RAP__wrapper" data-aos="fade-up">
           <h2>NO BETTER CAR SERVICE ANYWHERE</h2>
           <div class="RAP__button">
             <a href="" class="btn with-hover">REQUEST AN APPOINTMENT</a>
@@ -240,7 +265,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-          <div class="footer__icons">
+          <div class="footer__icons" data-aos="fade-right">
             <p class="mb--4">
               Car service © 2024 • <a href="">Privacy Policy</a>
             </p>
@@ -267,7 +292,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__address">
+          <div class="footer__address" data-aos="fade-up">
             <ul>
               <li>9863 - 9867 Mill Road,</li>
               <li>Cambridge, MG09 99HT</li>
@@ -287,13 +312,23 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            data-aos="fade-left"
           ></iframe>
         </div>
       </div>
     </footer>
 
+    <!-- BACK TO TOP -->
+    <a href="#header" class="back-to-top btn__circle footer">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
