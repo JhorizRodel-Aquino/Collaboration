@@ -1,20 +1,22 @@
-var slider = tns({
-  container: ".testimonial__slider",
+var homeService2__sldr = tns({
+  container: ".homeService2__slider",
   items: 3,
-  speed: 200,
-  gutter: 100,
-  slideBy: "page",
+  speed: 500,
+  gutter: 30,
+  slideBy: "1",
+  containerControls: "#homeService2__ctrls",
+  prevButton: ".homeService2__prev",
+  nextButton: ".homeService2__next",
+  rewind: true,
+});
+
+var homeBanner__sldr = tns({
+  container: ".homeBanner__slider",
+  items: 1,
+  speed: 500,
+  gutter: 0,
+  slideBy: "1",
+  axis: "vertical",
+  controls: false,
   autoplay: true,
-  navPosition: "bottom",
-  containerControls: "#controls",
-  prevButton: ".prev",
-  nextButton: ".next",
-  responsive: {
-    1250: {
-        items: 3,
-    },
-    200: {
-        items: 1,
-    },
-  },
 });
