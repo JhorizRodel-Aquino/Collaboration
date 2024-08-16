@@ -28,7 +28,7 @@ $alignments: center, right, left, justify;
   }
 }
 
-@for $i from 0 through 50 {
+@for $i from 0 through 30 {
   .mb--#{$i} {
     margin-bottom: $i + rem;
   }

@@ -1,10 +1,34 @@
 @use "../abstract/" as *;
 @use "../base/" as *;
 
-.services {
-  &__wrapper {
-    padding: 6rem 0;
+@keyframes moveUp {
+  from {
+    transform: translateY(500px);
   }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.services {
+  z-index: 1;
+  &__baraha {
+  animation: moveUp 1s;
+  }
+  p {
+    margin-bottom: 3rem;
+  }
+
+  &__wrapper {
+    padding: 6rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__slider {
+    display: flex;
+  }
+
   &__title {
     @include evenGrid(2, 2rem);
     align-items: center;
@@ -17,12 +41,8 @@
       font-weight: 150;
     }
   }
-  &__baraha {
-    @include evenGrid(3, 2rem);
-    width: 100%;
-    align-items: center;
-  }
   &__button {
+    animation: moveUp 1s;
     display: flex;
     justify-content: end;
     gap: 0.2rem;
@@ -38,14 +58,24 @@
       font-family: $font-primary;
     }
     p {
-            font-family: $font-primary;
-            line-height: 1.4rem;
+      font-family: $font-primary;
+      line-height: 1.4rem;
+    }
+    .three-dots {
+      display: inline;
+      color: $clr--light;
+      text-decoration: underline;
+      &:hover {
+        color: $clr--secondary;
+        transition: ease-in 0.3s;
+      }
     }
   }
 }
 
 .price {
-    margin: 2rem 0;
+  z-index: 999;
+  margin: 2rem 0;
   p {
     margin-top: 0.7rem;
   }
@@ -79,6 +109,11 @@
   }
   &__report {
     max-width: 32%;
+    animation: moveUp 1s;
+    animation-duration: 1.39s;
+  }
+  &__list {
+    animation: moveUp 1s;
   }
   &__halaga {
     @include evenGrid(3, 2rem);

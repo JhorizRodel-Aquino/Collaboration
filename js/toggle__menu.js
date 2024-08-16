@@ -5,3 +5,8 @@ toggleMenu.addEventListener("click", () => {
   headerNav.classList.toggle("open");
   toggleMenu.classList.toggle("open");
 });
+
+
+window.onload = function () {
+  document.querySelector('.services__baraha').classList.add('animate');
+};

@@ -1,0 +1,125 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+@keyframes moveUp {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+
+.features {
+  &__wrapper {
+    padding: 6rem 0;
+    line-height: 1.5rem;
+  }
+  &__baraha {
+    @include evenGrid(4, 2rem);
+  }
+  &__card {
+    @include centerAll;
+    flex-direction: column;
+    h3 {
+      margin: 3rem 0 1rem;
+    }
+    a {
+      margin-top: 2.8rem;
+    }
+  }
+
+  &__title {
+    border-bottom: 1px solid $clr--light;
+  }
+}
+
+.history {
+  padding: 2rem 0;
+  &__wrapper {
+    padding: 6rem 0;
+  }
+  &__divider {
+    line-height: 1.5rem;
+    @include unevenGrid(2fr 1fr, 2rem);
+    h2 {
+      border-bottom: 1px solid $clr--light;
+      padding-bottom: 1.7rem;
+      margin-bottom: 3.1rem;
+    }
+  }
+  &__our {
+    animation: moveUp 1s;
+    h4 {
+      margin-top: 1.5rem;
+    }
+  }
+  &__oppor {
+    animation: moveUp 1s;
+  }
+  &__set {
+    margin-top: 1.5rem;
+    a {
+      color: $clr--light;
+      opacity: 30%;
+
+      &:hover {
+        color: $clr--dark;
+        transition: ease-in 0.3s;
+        opacity: 95%;
+      }
+    }
+  }
+}
+
+.team {
+  h2 {
+    border-bottom: 1px solid $clr--dark;
+    padding-top: 7rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: -3.5rem;
+  }
+  &__wrapper {
+    padding: 6rem 0;
+  }
+  &__info {
+    @include evenGrid(4, 2rem);
+  }
+  .hober {
+    color: $clr--secondary;
+    &:hover {
+      color: $clr--dark;
+      transition: ease-in 0.3s;
+    }
+  }
+  h2 {
+    color: $clr--dark;
+  }
+  &__card {
+    h4 {
+      color: $clr--dark;
+    }
+    .three-dots {
+      display: inline;
+      color: $clr--dark;
+      text-decoration: underline;
+      &:hover {
+        color: $clr--secondary;
+        transition: ease-in 0.3s;
+      }
+    }
+  }
+  &__card:first-child {
+    animation: moveUp 1.3s;
+  }
+  &__card:nth-child(2) {
+    animation: moveUp 0.7s;
+  }
+  &__card:nth-child(3) {
+    animation: moveUp 1s;
+  }
+  &__card:last-child {
+    animation: moveUp 1.4s;
+  }
+}

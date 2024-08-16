@@ -20,3 +20,5 @@ var homeBanner__sldr = tns({
   controls: false,
   autoplay: true,
 });
+
+
