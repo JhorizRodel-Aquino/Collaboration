@@ -2018,6 +2018,7 @@ p, .homeWhat__card small {
 .contacts__form form input,
 .contacts__form form textarea {
   padding: 0.75rem;
+  font-family: "Ubuntu", normal;
 }
 .contacts__form form input:focus,
 .contacts__form form textarea:focus {
