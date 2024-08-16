@@ -13,7 +13,7 @@
 .services {
   z-index: 1;
   &__baraha {
-  animation: moveUp 1s;
+    animation: moveUp 1s;
   }
   p {
     margin-bottom: 3rem;
@@ -24,11 +24,6 @@
     display: flex;
     flex-direction: column;
   }
-
-  &__slider {
-    display: flex;
-  }
-
   &__title {
     @include evenGrid(2, 2rem);
     align-items: center;
@@ -70,37 +65,49 @@
         transition: ease-in 0.3s;
       }
     }
+    position: relative;
+    &::before {
+      content: " ";
+      position: absolute;
+      height: 95%;
+      width: 94.9%;
+      background-color: #8181814d;
+      z-index: -1;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+      transform: scale(1.03);
+    }
+    &:hover::before {
+      opacity: 1;
+    }
   }
 }
 
 .price {
   z-index: 999;
   margin: 2rem 0;
-  p {
-    margin-top: 0.7rem;
-  }
+  font-family: $font-primary;
   h2 {
     color: $clr--dark;
-    font-size: 35px;
-    font-family: $font-secondary;
-    font-weight: 150;
-    border-bottom: 1px solid $clr--dark;
+    border-bottom: 1px solid #d9d9d9;
   }
   h3 {
     font-size: 13px;
-    font-weight: 150;
-    color: $clr--secondary;
-    border-bottom: 1px solid $clr--dark;
+    border-bottom: 1px solid #d9d9d9;
     padding-top: 3rem;
     padding-bottom: 1rem;
+    & a:hover {
+      transition: all 0.3s ease-in-out;
+      color: $clr--primary;
+    }
   }
   h4 {
-    color: $clr--dark;
-    font-weight: 100;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    color: $clr--primary;
   }
-  color: $clr--dark;
+
+  color: $clr--primary;
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -111,12 +118,34 @@
     max-width: 32%;
     animation: moveUp 1s;
     animation-duration: 1.39s;
+    h4 {
+      margin-top: 0.7rem;
+    }
   }
   &__list {
     animation: moveUp 1s;
+    h4 {
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+    }
+    ul {
+      @include evenGrid(1, 0);
+      justify-items: center;
+      text-align: justify;
+      a {
+        transition: all 0.3s ease-in-out;
+        color: $clr--primary;
+        span {
+          color: $clr--primary;
+        }
+        &:hover {
+          color: $clr--secondary;
+        }
+      }
+    }
   }
   &__halaga {
-    @include evenGrid(3, 2rem);
+    @include evenGrid(3, 2.5rem);
     line-height: 2rem;
   }
 }

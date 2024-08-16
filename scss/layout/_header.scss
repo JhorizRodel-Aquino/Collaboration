@@ -13,7 +13,7 @@
     @include between;
   }
   &__logo {
-    width: 187.99px;
+    width: 188px;
     height: 190px;
   }
   &__nav {
@@ -35,9 +35,9 @@
         left: 0;
         background-color: $clr--secondary;
         transition: all ease-out 0.2s;
-        
       }
-      &:hover::after, &.active::after {
+      &:hover::after,
+      &.active::after {
         width: 100%;
       }
     }

@@ -1706,7 +1706,7 @@ p, .homeWhat__card small {
   align-items: center;
 }
 .header__logo {
-  width: 187.99px;
+  width: 188px;
   height: 190px;
 }
 .header__nav {
@@ -2217,6 +2217,10 @@ p, .homeWhat__card small {
 .RAP__button i {
   font-size: 30px;
 }
+.RAP__button a {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
 
 .back-to-top {
   position: sticky;
@@ -2248,9 +2252,6 @@ p, .homeWhat__card small {
   display: flex;
   flex-direction: column;
 }
-.services__slider {
-  display: flex;
-}
 .services__title {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2275,6 +2276,9 @@ p, .homeWhat__card small {
   display: flex;
   justify-content: center;
 }
+.services__card {
+  position: relative;
+}
 .services__card h4 {
   margin: 1.5rem 0 0.3rem 0;
   color: #f8565d;
@@ -2293,35 +2297,45 @@ p, .homeWhat__card small {
   color: #f8565d;
   transition: ease-in 0.3s;
 }
+.services__card::before {
+  content: " ";
+  position: absolute;
+  height: 95%;
+  width: 94.9%;
+  background-color: rgba(129, 129, 129, 0.3019607843);
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.services__card:hover {
+  transform: scale(1.03);
+}
+.services__card:hover::before {
+  opacity: 1;
+}
 
 .price {
   z-index: 999;
   margin: 2rem 0;
-  color: #26252a;
-}
-.price p {
-  margin-top: 0.7rem;
+  font-family: "Ubuntu", normal;
+  color: #3e3e43;
 }
 .price h2 {
   color: #26252a;
-  font-size: 35px;
-  font-family: "Ubuntu Condensed", normal;
-  font-weight: 150;
-  border-bottom: 1px solid #26252a;
+  border-bottom: 1px solid #d9d9d9;
 }
 .price h3 {
   font-size: 13px;
-  font-weight: 150;
-  color: #f8565d;
-  border-bottom: 1px solid #26252a;
+  border-bottom: 1px solid #d9d9d9;
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
+.price h3 a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #3e3e43;
+}
 .price h4 {
-  color: #26252a;
-  font-weight: 100;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+  color: #3e3e43;
 }
 .price__wrapper {
   display: flex;
@@ -2334,12 +2348,36 @@ p, .homeWhat__card small {
   animation: moveUp 1s;
   animation-duration: 1.39s;
 }
+.price__report h4 {
+  margin-top: 0.7rem;
+}
 .price__list {
   animation: moveUp 1s;
+}
+.price__list h4 {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.price__list ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0;
+  justify-items: center;
+  text-align: justify;
+}
+.price__list ul a {
+  transition: all 0.3s ease-in-out;
+  color: #3e3e43;
+}
+.price__list ul a span {
+  color: #3e3e43;
+}
+.price__list ul a:hover {
+  color: #f8565d;
 }
 .price__halaga {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 2.5rem;
   line-height: 2rem;
 }/*# sourceMappingURL=main.min.css.map */
