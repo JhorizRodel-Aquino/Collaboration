@@ -33,6 +33,14 @@
   color: #f8565d;
 }
 
+.bg--tertiary {
+  background-color: #343438;
+}
+
+.text--tertiary {
+  color: #343438;
+}
+
 .text--center {
   text-align: center;
 }
@@ -89,6 +97,10 @@
   padding: 0rem 0;
 }
 
+.px--0 {
+  padding: 0 0rem;
+}
+
 .mb--1 {
   margin-bottom: 1rem;
 }
@@ -127,6 +139,10 @@
 
 .py--1 {
   padding: 1rem 0;
+}
+
+.px--1 {
+  padding: 0 1rem;
 }
 
 .mb--2 {
@@ -169,6 +185,10 @@
   padding: 2rem 0;
 }
 
+.px--2 {
+  padding: 0 2rem;
+}
+
 .mb--3 {
   margin-bottom: 3rem;
 }
@@ -207,6 +227,10 @@
 
 .py--3 {
   padding: 3rem 0;
+}
+
+.px--3 {
+  padding: 0 3rem;
 }
 
 .mb--4 {
@@ -249,6 +273,10 @@
   padding: 4rem 0;
 }
 
+.px--4 {
+  padding: 0 4rem;
+}
+
 .mb--5 {
   margin-bottom: 5rem;
 }
@@ -287,6 +315,10 @@
 
 .py--5 {
   padding: 5rem 0;
+}
+
+.px--5 {
+  padding: 0 5rem;
 }
 
 .mb--6 {
@@ -329,6 +361,10 @@
   padding: 6rem 0;
 }
 
+.px--6 {
+  padding: 0 6rem;
+}
+
 .mb--7 {
   margin-bottom: 7rem;
 }
@@ -367,6 +403,10 @@
 
 .py--7 {
   padding: 7rem 0;
+}
+
+.px--7 {
+  padding: 0 7rem;
 }
 
 .mb--8 {
@@ -409,6 +449,10 @@
   padding: 8rem 0;
 }
 
+.px--8 {
+  padding: 0 8rem;
+}
+
 .mb--9 {
   margin-bottom: 9rem;
 }
@@ -447,6 +491,10 @@
 
 .py--9 {
   padding: 9rem 0;
+}
+
+.px--9 {
+  padding: 0 9rem;
 }
 
 .mb--10 {
@@ -489,6 +537,10 @@
   padding: 10rem 0;
 }
 
+.px--10 {
+  padding: 0 10rem;
+}
+
 .mb--11 {
   margin-bottom: 11rem;
 }
@@ -527,6 +579,10 @@
 
 .py--11 {
   padding: 11rem 0;
+}
+
+.px--11 {
+  padding: 0 11rem;
 }
 
 .mb--12 {
@@ -569,6 +625,10 @@
   padding: 12rem 0;
 }
 
+.px--12 {
+  padding: 0 12rem;
+}
+
 .mb--13 {
   margin-bottom: 13rem;
 }
@@ -607,6 +667,10 @@
 
 .py--13 {
   padding: 13rem 0;
+}
+
+.px--13 {
+  padding: 0 13rem;
 }
 
 .mb--14 {
@@ -649,6 +713,10 @@
   padding: 14rem 0;
 }
 
+.px--14 {
+  padding: 0 14rem;
+}
+
 .mb--15 {
   margin-bottom: 15rem;
 }
@@ -687,6 +755,10 @@
 
 .py--15 {
   padding: 15rem 0;
+}
+
+.px--15 {
+  padding: 0 15rem;
 }
 
 .mb--16 {
@@ -729,6 +801,10 @@
   padding: 16rem 0;
 }
 
+.px--16 {
+  padding: 0 16rem;
+}
+
 .mb--17 {
   margin-bottom: 17rem;
 }
@@ -767,6 +843,10 @@
 
 .py--17 {
   padding: 17rem 0;
+}
+
+.px--17 {
+  padding: 0 17rem;
 }
 
 .mb--18 {
@@ -809,6 +889,10 @@
   padding: 18rem 0;
 }
 
+.px--18 {
+  padding: 0 18rem;
+}
+
 .mb--19 {
   margin-bottom: 19rem;
 }
@@ -847,6 +931,10 @@
 
 .py--19 {
   padding: 19rem 0;
+}
+
+.px--19 {
+  padding: 0 19rem;
 }
 
 .mb--20 {
@@ -889,6 +977,10 @@
   padding: 20rem 0;
 }
 
+.px--20 {
+  padding: 0 20rem;
+}
+
 .mb--21 {
   margin-bottom: 21rem;
 }
@@ -927,6 +1019,10 @@
 
 .py--21 {
   padding: 21rem 0;
+}
+
+.px--21 {
+  padding: 0 21rem;
 }
 
 .mb--22 {
@@ -969,6 +1065,10 @@
   padding: 22rem 0;
 }
 
+.px--22 {
+  padding: 0 22rem;
+}
+
 .mb--23 {
   margin-bottom: 23rem;
 }
@@ -1007,6 +1107,10 @@
 
 .py--23 {
   padding: 23rem 0;
+}
+
+.px--23 {
+  padding: 0 23rem;
 }
 
 .mb--24 {
@@ -1049,6 +1153,10 @@
   padding: 24rem 0;
 }
 
+.px--24 {
+  padding: 0 24rem;
+}
+
 .mb--25 {
   margin-bottom: 25rem;
 }
@@ -1087,6 +1195,10 @@
 
 .py--25 {
   padding: 25rem 0;
+}
+
+.px--25 {
+  padding: 0 25rem;
 }
 
 .mb--26 {
@@ -1129,6 +1241,10 @@
   padding: 26rem 0;
 }
 
+.px--26 {
+  padding: 0 26rem;
+}
+
 .mb--27 {
   margin-bottom: 27rem;
 }
@@ -1167,6 +1283,10 @@
 
 .py--27 {
   padding: 27rem 0;
+}
+
+.px--27 {
+  padding: 0 27rem;
 }
 
 .mb--28 {
@@ -1209,6 +1329,10 @@
   padding: 28rem 0;
 }
 
+.px--28 {
+  padding: 0 28rem;
+}
+
 .mb--29 {
   margin-bottom: 29rem;
 }
@@ -1247,6 +1371,10 @@
 
 .py--29 {
   padding: 29rem 0;
+}
+
+.px--29 {
+  padding: 0 29rem;
 }
 
 .mb--30 {
@@ -1289,6 +1417,10 @@
   padding: 30rem 0;
 }
 
+.px--30 {
+  padding: 0 30rem;
+}
+
 .mb--31 {
   margin-bottom: 31rem;
 }
@@ -1327,6 +1459,10 @@
 
 .py--31 {
   padding: 31rem 0;
+}
+
+.px--31 {
+  padding: 0 31rem;
 }
 
 .mb--32 {
@@ -1369,6 +1505,10 @@
   padding: 32rem 0;
 }
 
+.px--32 {
+  padding: 0 32rem;
+}
+
 .mb--33 {
   margin-bottom: 33rem;
 }
@@ -1407,6 +1547,10 @@
 
 .py--33 {
   padding: 33rem 0;
+}
+
+.px--33 {
+  padding: 0 33rem;
 }
 
 .mb--34 {
@@ -1449,6 +1593,10 @@
   padding: 34rem 0;
 }
 
+.px--34 {
+  padding: 0 34rem;
+}
+
 .mb--35 {
   margin-bottom: 35rem;
 }
@@ -1487,6 +1635,10 @@
 
 .py--35 {
   padding: 35rem 0;
+}
+
+.px--35 {
+  padding: 0 35rem;
 }
 
 .mb--36 {
@@ -1529,6 +1681,10 @@
   padding: 36rem 0;
 }
 
+.px--36 {
+  padding: 0 36rem;
+}
+
 .mb--37 {
   margin-bottom: 37rem;
 }
@@ -1567,6 +1723,10 @@
 
 .py--37 {
   padding: 37rem 0;
+}
+
+.px--37 {
+  padding: 0 37rem;
 }
 
 .mb--38 {
@@ -1609,6 +1769,10 @@
   padding: 38rem 0;
 }
 
+.px--38 {
+  padding: 0 38rem;
+}
+
 .mb--39 {
   margin-bottom: 39rem;
 }
@@ -1647,6 +1811,10 @@
 
 .py--39 {
   padding: 39rem 0;
+}
+
+.px--39 {
+  padding: 0 39rem;
 }
 
 .mb--40 {
@@ -1689,6 +1857,10 @@
   padding: 40rem 0;
 }
 
+.px--40 {
+  padding: 0 40rem;
+}
+
 .mb--41 {
   margin-bottom: 41rem;
 }
@@ -1727,6 +1899,10 @@
 
 .py--41 {
   padding: 41rem 0;
+}
+
+.px--41 {
+  padding: 0 41rem;
 }
 
 .mb--42 {
@@ -1769,6 +1945,10 @@
   padding: 42rem 0;
 }
 
+.px--42 {
+  padding: 0 42rem;
+}
+
 .mb--43 {
   margin-bottom: 43rem;
 }
@@ -1807,6 +1987,10 @@
 
 .py--43 {
   padding: 43rem 0;
+}
+
+.px--43 {
+  padding: 0 43rem;
 }
 
 .mb--44 {
@@ -1849,6 +2033,10 @@
   padding: 44rem 0;
 }
 
+.px--44 {
+  padding: 0 44rem;
+}
+
 .mb--45 {
   margin-bottom: 45rem;
 }
@@ -1887,6 +2075,10 @@
 
 .py--45 {
   padding: 45rem 0;
+}
+
+.px--45 {
+  padding: 0 45rem;
 }
 
 .mb--46 {
@@ -1929,6 +2121,10 @@
   padding: 46rem 0;
 }
 
+.px--46 {
+  padding: 0 46rem;
+}
+
 .mb--47 {
   margin-bottom: 47rem;
 }
@@ -1967,6 +2163,10 @@
 
 .py--47 {
   padding: 47rem 0;
+}
+
+.px--47 {
+  padding: 0 47rem;
 }
 
 .mb--48 {
@@ -2009,6 +2209,10 @@
   padding: 48rem 0;
 }
 
+.px--48 {
+  padding: 0 48rem;
+}
+
 .mb--49 {
   margin-bottom: 49rem;
 }
@@ -2049,6 +2253,10 @@
   padding: 49rem 0;
 }
 
+.px--49 {
+  padding: 0 49rem;
+}
+
 .mb--50 {
   margin-bottom: 50rem;
 }
@@ -2087,6 +2295,10 @@
 
 .py--50 {
   padding: 50rem 0;
+}
+
+.px--50 {
+  padding: 0 50rem;
 }
 
 .gc--1 {
@@ -2146,6 +2358,7 @@ h4,
 h5,
 h6,
 p,
+.homeWhat__card small,
 blockquote,
 pre,
 a,
@@ -2218,7 +2431,6 @@ time {
 
 a {
   text-decoration: none;
-  line-height: 0;
 }
 
 img {
@@ -2228,9 +2440,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 100rem;
+  max-width: 87rem;
   margin: 0 auto;
-  padding: 0 6rem;
+  padding: 0 7rem;
 }
 
 h1 {
@@ -2252,8 +2464,8 @@ h4 {
   font-weight: lighter;
 }
 
-p {
-  font-size: 0.9rem;
+p, .homeWhat__card small {
+  font-size: 0.875rem;
   font-weight: lighter;
 }
 
@@ -2266,30 +2478,52 @@ p {
 }
 
 .btn {
-<<<<<<< HEAD
-  padding: 0.6rem;
-  background-color: #f8565d;
-  border: 1px solid transparent;
-  font-size: 1rem;
-  background-color: #fff;
-  border-radius: 50%;
-  color: #f8565d;
-  font-weight: 600;
-  font-size: 10px;
-}
-.btn.bg--bilog {
-  width: 1rem;
-=======
-  padding: 16px 32px;
+  padding: 13.5px 32px;
   background-color: #f8565d;
   color: #fff;
   font-size: 1.28rem;
->>>>>>> Aquino
+  transition: all 0.3s ease-in-out;
 }
-.btn:hover {
+.btn.with-hover:hover {
   background-color: #fff;
-  border: 1px solid transparent;
+  color: #26252a;
+}
+.btn.with-hover--transparent:hover {
+  background-color: transparent;
+  color: #26252a;
+}
+
+.btn__circle {
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.btn__circle.slider {
+  background-color: #fff;
   color: #f8565d;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 13px;
+}
+.btn__circle.slider:hover {
+  background-color: #26252a;
+  color: #f8565d;
+}
+.btn__circle.footer {
+  font-size: 15px;
+  background-color: #26252a;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 13px;
+}
+.btn__circle.footer i {
+  width: 17px;
+  height: 17px;
+  text-align: center;
+}
+.btn__circle.footer:hover {
+  background-color: #f8565d;
+  color: #fff;
+  border-color: #f8565d;
 }
 
 .tns-outer {
@@ -2343,6 +2577,12 @@ p {
 .header {
   width: 100%;
 }
+.header .container {
+  padding: 0;
+}
+.header a {
+  line-height: 0;
+}
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -2356,7 +2596,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 8.95rem;
+  padding-right: 8rem;
   gap: 0.3rem;
 }
 .header__nav a {
@@ -2364,6 +2604,7 @@ p {
   font-size: 1.2rem;
   font-family: "Ubuntu Condensed", normal;
   position: relative;
+  color: #fff;
 }
 .header__nav a::after {
   content: " ";
@@ -2379,74 +2620,408 @@ p {
   width: 100%;
 }
 
+.footer {
+  margin: 2rem 0 1.5rem 0;
+  font-family: "Ubuntu", normal;
+}
+.footer .container {
+  padding-right: 0;
+}
 .footer__wrapper {
   display: flex;
-  justify-content: center;
-  gap: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  align-items: start;
 }
-.footer img {
-  width: 10rem;
-  margin-bottom: 1rem;
+.footer__wrapper p,
+.footer__wrapper a,
+.footer__wrapper li {
+  color: #89888c;
+  font-size: 0.8rem;
 }
-.footer span {
-  color: #f8565d;
+.footer__icons {
+  padding-top: 2rem;
 }
-.footer ul li {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-}
-.footer ul a {
-  color: #fff;
-}
-.footer ul a:hover {
-  color: #f8565d;
-}
-.footer__subscribe {
-  margin-bottom: 1rem;
-  position: relative;
-}
-.footer__subscribe input {
-  width: 20rem;
-  padding: 0.7rem 1rem;
-  background-color: transparent;
-  border: 1px solid #f8565d;
-  border-radius: 4rem;
-}
-.footer__subscribe input:enabled {
-  color: #fff;
-}
-.footer__social {
+.footer__icons ul {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.45rem;
+}
+.footer__address {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
+  padding: 2rem 2rem 0 0;
 }
-.footer__social a {
-  font-size: 1.3rem;
-}
-.footer .btn {
-  position: absolute;
-  right: -2rem;
-  top: 0.5rem;
-}
-.footer p {
-  text-align: center;
+.footer iframe {
+  width: 680px;
+  height: 294px;
 }
 
-@media screen and (max-width: 520px) {
-  .footer__wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    justify-items: center;
-    text-align: center;
-    gap: 3rem;
-  }
-  .footer__wrapper ul:first-child, .footer__wrapper .footer__input {
-    grid-column: span 2;
-  }
-  .footer__social {
-    justify-content: center;
-  }
+.blog #bilog {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 6rem;
+}
+.blog__wrapper {
+  border-top: 1px solid #d9d9d9;
+  padding-bottom: 6rem;
+}
+.blog__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: start;
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 1.5rem;
+  padding-top: 2.5rem;
+}
+.blog__content--text {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  padding-right: 10rem;
+  justify-items: start;
+}
+.blog__content--text h3 {
+  margin-bottom: 1rem;
+  font-family: "Ubuntu Condensed", normal;
+}
+.blog__content--text p {
+  margin-bottom: 3rem;
+  font-family: "Ubuntu", normal;
+}
+.blog__content span {
+  margin-right: 2rem;
+}
+.blog__content h1 {
+  font-size: 5.5rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 4rem;
+}
+.blog__content h2 {
+  font-size: 2.6rem;
+}
+.blog__content img {
+  width: 370px;
+  height: 218px;
+  margin-right: 2rem;
+}
+.blog__button {
+  margin-top: 5rem;
+}
+
+.contacts__wrapper {
+  padding: 6rem 0;
+  display: flex;
+  align-items: start;
+}
+.contacts__how {
+  width: 41%;
+  margin-right: 2rem;
+}
+.contacts__how h2 {
+  color: #26252a;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 0.5rem;
+}
+.contacts__how p {
+  font-size: 0.8rem;
+  margin-top: 3rem;
+  font-family: "Ubuntu", normal;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 1rem;
+}
+.contacts__how p a {
+  color: #f8565d;
+  transition: all ease-in 0.2s;
+}
+.contacts__how p a:hover {
+  color: #26252a;
+}
+.contacts__how h4 {
+  color: #26252a;
+  font-size: 1.1rem;
+  margin-top: 0.75rem;
+}
+.contacts__form {
+  width: 59%;
+}
+.contacts__form h2 {
+  color: #26252a;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 0.5rem;
+  margin-bottom: 3rem;
+}
+.contacts__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: start;
+}
+.contacts__form form input {
+  border: 1px solid #d9d9d9;
+  width: 70%;
+}
+.contacts__form form input::-webkit-outer-spin-button,
+.contacts__form form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contacts__form form textarea {
+  resize: none;
+  border: 1px solid #d9d9d9;
+  height: 14rem;
+}
+.contacts__form form input,
+.contacts__form form textarea {
+  padding: 0.75rem;
+}
+.contacts__form form input:focus,
+.contacts__form form textarea:focus {
+  box-shadow: #f8565d 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.contacts__form form input:focus::-moz-placeholder, .contacts__form form textarea:focus::-moz-placeholder {
+  color: #d9d9d9;
+  font-weight: lighter;
+}
+.contacts__form form input:focus::placeholder,
+.contacts__form form textarea:focus::placeholder {
+  color: #d9d9d9;
+  font-weight: lighter;
+}
+.contacts__form form input::-moz-placeholder, .contacts__form form textarea::-moz-placeholder {
+  font-family: "Ubuntu", normal;
+  color: #26252a;
+}
+.contacts__form form input::placeholder,
+.contacts__form form textarea::placeholder {
+  font-family: "Ubuntu", normal;
+  color: #26252a;
+}
+.contacts__buttons {
+  align-self: end;
+  margin-top: 3rem;
+}
+.contacts__buttons a {
+  margin-left: 1.5rem;
+}
+
+.homeServices {
+  margin: 2rem 0;
 }
 .homeServices__wrapper {
-  @imclude;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.homeServices__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 5rem 0;
+  position: relative;
+}
+.homeServices__card h3 {
+  padding-bottom: 2rem;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.0352941176);
+  width: 100%;
+  z-index: 100;
+}
+.homeServices__card i {
+  font-size: 3rem;
+  z-index: 100;
+  transition: all ease-out 0.4s;
+}
+.homeServices__card p, .homeServices__card .homeWhat__card small, .homeWhat__card .homeServices__card small {
+  font-family: "Ubuntu", normal;
+  z-index: 100;
+}
+.homeServices__card a {
+  transition: all ease-out 0.4s;
+  margin-top: 1.7rem;
+  z-index: 100;
+}
+.homeServices__card span {
+  height: 88%;
+  width: 88%;
+  position: absolute;
+  transition: all ease-out 0.4s;
+}
+.homeServices__card:hover span {
+  background-color: #303033;
+  height: 108%;
+  width: 108%;
+}
+.homeServices__card:hover i {
+  color: #f8565d;
+}
+.homeServices__card:hover a {
+  color: #26252a;
+  background-color: #fff;
+}
+
+.homeWhat {
+  margin: 2rem 0;
+  color: #26252a;
+}
+.homeWhat__wrapper {
+  padding: 6rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+.homeWhat__card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.homeWhat__card h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(38, 37, 42, 0.1529411765);
+  color: #26252a;
+}
+.homeWhat__card p, .homeWhat__card small {
+  font-family: "Ubuntu", normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(38, 37, 42, 0.1529411765);
+}
+.homeWhat__card p:last-child, .homeWhat__card small:last-child {
+  padding: 0;
+  border: none;
+}
+.homeWhat__card small {
+  font-size: 0.8rem;
+  color: #f8565d;
+}
+
+.RAP {
+  margin: 2rem 0;
+}
+.RAP__wrapper {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+.RAP__wrapper h2 {
+  font-size: 126px;
+  line-height: 110px;
+}
+.RAP__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+  gap: 1rem;
+}
+.RAP__button i {
+  font-size: 30px;
+}
+
+.services__wrapper {
+  padding: 6rem 0;
+}
+.services__title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-items: space-between;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1rem;
+  margin-bottom: 2.5rem;
+}
+.services__title h2 {
+  font-family: "Ubuntu Condensed", normal;
+  font-weight: 150;
+}
+.services__baraha {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+}
+.services__button {
+  display: flex;
+  justify-content: end;
+  gap: 0.2rem;
+}
+.services a {
+  display: flex;
+  justify-content: center;
+}
+.services__card h4 {
+  margin: 1.5rem 0 0.3rem 0;
+  color: #f8565d;
+  font-family: "Ubuntu", normal;
+}
+.services__card p {
+  font-family: "Ubuntu", normal;
+  line-height: 1.4rem;
+}
+.services__card .three-dots {
+  display: inline;
+  color: #fff;
+  text-decoration: underline;
+}
+.services__card .three-dots:hover {
+  color: #f8565d;
+  transition: ease-in 0.3s;
+}
+
+.price {
+  margin: 2rem 0;
+  color: #26252a;
+}
+.price p {
+  margin-top: 0.7rem;
+}
+.price h2 {
+  color: #26252a;
+  font-size: 35px;
+  font-family: "Ubuntu Condensed", normal;
+  font-weight: 150;
+  border-bottom: 1px solid #26252a;
+}
+.price h3 {
+  font-size: 13px;
+  font-weight: 150;
+  color: #f8565d;
+  border-bottom: 1px solid #26252a;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.price h4 {
+  color: #26252a;
+  font-weight: 100;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.price__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 6rem 0;
+}
+.price__report {
+  max-width: 32%;
+}
+.price__halaga {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  line-height: 2rem;
 }/*# sourceMappingURL=main.min.css.map */

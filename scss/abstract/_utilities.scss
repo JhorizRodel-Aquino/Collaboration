@@ -5,6 +5,7 @@ $colors: (
   "light": $clr--light,
   "primary": $clr--primary,
   "secondary": $clr--secondary,
+  "tertiary": $clr--tertiary,
 );
 
 @each $key, $val in $colors {
@@ -57,6 +58,9 @@ $alignments: center, right, left, justify;
   }
   .py--#{$i} {
     padding: $i + rem 0;
+  }
+  .px--#{$i} {
+    padding: 0 $i + rem;
   }
 }
 

@@ -2,18 +2,64 @@
 @use "../base/" as *;
 
 .blog {
-    padding: 5rem 0;
+  #bilog {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding-top: 6rem;
+  }
 
-    h3 {
-        font-size: 1.3rem;
+  &__wrapper {
+    border-top: 1px solid #d9d9d9;
+    padding-bottom: 6rem;
+  }
+  &__content {
+    @include between;
+    align-items: start;
+    display: flex;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 1.5rem;
+    padding-top: 2.5rem;
+
+    &--text {
+      display: flex;
+      flex-direction: column;
+      max-width: 50rem;
+      padding-right: 10rem;
+      justify-items: start;
+      h3 {
+        margin-bottom: 1rem;
+        font-family: $font-secondary;
+      }
+
+      p {
+        margin-bottom: 3rem;
+        font-family: $font-primary;
+      }
     }
 
-    &__wrapper {
-        @include centerAll;
-        flex-direction: column;
+    span {
+      margin-right: 2rem;
     }
-    &__content {
-        display: flex;
-        text-align: justify;
+
+    h1 {
+      font-size: 5.5rem;
+      font-weight: 400;
+      margin-top: 1rem;
+      line-height: 4rem;
     }
+
+    h2 {
+      font-size: 2.6rem;
+    }
+
+    img {
+      width: 370px;
+      height: 218px;
+      margin-right: 2rem;
+    }
+  }
+
+  &__button {
+    margin-top: 5rem;
+  }
 }
