@@ -37,13 +37,9 @@
         transition: all ease-out 0.2s;
         
       }
-      &:hover::after {
+      &:hover::after, &.active::after {
         width: 100%;
       }
-
-      //   &:hover {
-      //     border-bottom: 10px solid $clr--secondary;
-      //   }
     }
   }
 }

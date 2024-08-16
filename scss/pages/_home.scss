@@ -1,6 +1,37 @@
 @use "../base/" as *;
 @use "../abstract/" as *;
 
+.homeBanner {
+  &__wrapper {
+    position: relative;
+    max-height: 560px;
+  }
+  .container {
+    padding: 0;
+  }
+  &__card {
+    height: 35rem;
+    display: flex;
+    position: relative;
+
+    h2 {
+      opacity: 0;
+      font-size: 3.5rem;
+      letter-spacing: -2px;
+      line-height: 3.5rem;
+      position: absolute;
+      right: 13rem;
+      bottom: 14rem;
+
+      transition: all 1s ease-in-out;
+      transition-delay: 0.7s;
+    }
+    &.tns-slide-active h2 {
+      opacity: 1;
+    }
+  }
+}
+
 .homeServices {
   margin: 2rem 0;
   &__wrapper {
@@ -27,13 +58,13 @@
       font-family: $font-primary;
       z-index: 100;
     }
-    div {
+
+    a {
+      transition: all ease-out 0.4s;
       margin-top: 1.7rem;
       z-index: 100;
-      a {
-        transition: all ease-out 0.4s;
-      }
     }
+
     span {
       height: 88%;
       width: 88%;
@@ -53,6 +84,27 @@
         color: $clr--dark;
         background-color: $clr--light;
       }
+    }
+  }
+}
+
+.homeService2 {
+  margin: 2rem 0;
+  &__wrapper {
+    padding: 6rem 0;
+  }
+  &__title {
+    @include between;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #ffffff3b;
+  }
+  &__card {
+    img {
+      margin: 2rem 0 1.2rem 0;
+    }
+    p {
+      font-family: $font-primary;
+      line-height: 1.5rem;
     }
   }
 }
@@ -109,9 +161,15 @@
     @include centerAll;
     justify-content: start;
     gap: 1rem;
-
     i {
       font-size: 30px;
     }
   }
 }
+
+.back-to-top {
+  position: sticky;
+  bottom: 2.7rem;
+  left: 103.9rem;
+}
+
