@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car Services</title>
     <link rel="stylesheet" href="./dist/css/main.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
@@ -20,7 +24,7 @@
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="services.html">SERVICES</a></li>
             <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contacts.html">CONTACTS</a></li>
+            <li><a href="active contacts.html">CONTACTS</a></li>
           </ul>
         </div>
       </div>
@@ -30,7 +34,12 @@
     <section class="contacts">
       <div class="container bg--light">
         <div class="contacts__wrapper">
-          <div class="contacts__how">
+          <div
+            class="contacts__how"
+            data-aos="fade-up"
+            data-aos-duration="550"
+            data-aos-easing="linear"
+          >
             <h2>HOW TO FIND US</h2>
             <p>
               <a href="">
@@ -53,7 +62,11 @@
               erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.
             </h4>
           </div>
-          <div class="contacts__form">
+          <div
+            class="contacts__form"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
             <h2 style="text-transform: uppercase">Contact Form</h2>
             <form>
               <input type="text" placeholder="Name:" />
@@ -125,5 +138,14 @@
         </div>
       </div>
     </footer>
+
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/toggle__menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

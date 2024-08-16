@@ -2717,9 +2717,10 @@ p, .homeWhat__card small {
 .contacts__wrapper {
   padding: 6rem 0;
   display: flex;
+  align-items: start;
 }
 .contacts__how {
-  width: 45%;
+  width: 41%;
   margin-right: 2rem;
 }
 .contacts__how h2 {
@@ -2747,7 +2748,7 @@ p, .homeWhat__card small {
   margin-top: 0.75rem;
 }
 .contacts__form {
-  width: 55%;
+  width: 59%;
 }
 .contacts__form h2 {
   color: #26252a;
@@ -2773,7 +2774,7 @@ p, .homeWhat__card small {
 .contacts__form form textarea {
   resize: none;
   border: 1px solid #d9d9d9;
-  height: 10rem;
+  height: 14rem;
 }
 .contacts__form form input,
 .contacts__form form textarea {

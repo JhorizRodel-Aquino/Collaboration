@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
@@ -22,7 +23,7 @@
             <li><a href="home.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="services.html">SERVICES</a></li>
-            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="active blog.html">BLOG</a></li>
             <li><a href="contacts.html">CONTACTS</a></li>
           </ul>
         </div>
@@ -33,7 +34,7 @@
     <section class="blog">
       <div class="container bg--primary">
         <h2 id="bilog">BLOG</h2>
-        <div class="blog__wrapper">
+        <div class="blog__wrapper" data-aos="fade-right">
           <div class="blog__content">
             <span
               ><h1>25</h1>
@@ -162,5 +163,14 @@
         </div>
       </div>
     </footer>
+
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/toggle__menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

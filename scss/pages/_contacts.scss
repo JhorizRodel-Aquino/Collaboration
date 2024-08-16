@@ -5,9 +5,10 @@
   &__wrapper {
     padding: 6rem 0;
     display: flex;
+    align-items: start;
   }
   &__how {
-    width: 45%;
+    width: 41%;
     margin-right: 2rem;
 
     h2 {
@@ -39,7 +40,7 @@
   }
 
   &__form {
-    width: 55%;
+    width: 59%;
     h2 {
       color: $clr--dark;
       border-bottom: 1px solid #d9d9d9;
@@ -66,7 +67,7 @@
       textarea {
         resize: none;
         border: 1px solid #d9d9d9;
-        height: 10rem;
+        height: 14rem;
       }
       input,
       textarea {
