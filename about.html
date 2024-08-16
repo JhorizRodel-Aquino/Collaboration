@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- Header -->
@@ -20,7 +21,7 @@
           /></a>
           <ul class="header__nav">
             <li><a href="home.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="active about.html">ABOUT</a></li>
             <li><a href="services.html">SERVICES</a></li>
             <li><a href="blog.html">BLOG</a></li>
             <li><a href="contacts.html">CONTACTS</a></li>
@@ -37,7 +38,8 @@
             <h2 class="pb--1">FEATURES</h2>
           </div>
           <div class="features__baraha">
-            <div class="features__card">
+            <div class="features__card" data-aos="fade-right"
+                data-aos-duration="800">
               <h3>NEQUE PORO QUIS</h3>
               <h4>
                 Cubilipende sollicitudineed leo pharea aumennec in velit veaugun
@@ -46,7 +48,9 @@
               </h4>
               <a href="" class="btn with-hover">MORE</a>
             </div>
-            <div class="features__card">
+            <div class="features__card" data-aos="fade-right"
+                data-aos-duration="700"
+                data-aos-delay="500">
               <h3>SED UT PERSP</h3>
               <h4>
                 Sollicitudineied leo pharetr in velit eaugun eratisque diam lor
@@ -55,7 +59,9 @@
               </h4>
               <a href="" class="btn with-hover">MORE</a>
             </div>
-            <div class="features__card">
+            <div class="features__card" data-aos="fade-left"
+                data-aos-duration="700"
+                data-aos-delay="500">
               <h3>UT PHARETRA AUGUE</h3>
               <h4>
                 Cubilipende sollicitudineed leo pharea aumennec in velit veaugun
@@ -64,7 +70,8 @@
               </h4>
               <a href="" class="btn with-hover">MORE</a>
             </div>
-            <div class="features__card">
+            <div class="features__card" data-aos="fade-left"
+                data-aos-duration="800">
               <h3>MAECEN TRISTIQU</h3>
               <h4>
                 Sollicitudineied leo pharetr in velit eaugun eratisque diam lor
@@ -139,7 +146,6 @@
       </div>
     </section>
 
-
     <!-- OUR TEAM -->
     <section class="team">
       <div class="container bg--light">
@@ -147,30 +153,41 @@
         <div class="team__wrapper">
           <div class="team__info">
             <div class="team__card">
-              <img src="./img/aboutTeam1.jpg" alt="">
+              <img src="./img/aboutTeam1.jpg" alt="" />
               <a class="hober" href="./about.html">Mark Johnson</a>
-              <h4>Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in <a class="three-dots" href="./about.html">&#8230;</a></h4>
+              <h4>
+                Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in
+                <a class="three-dots" href="./about.html">&#8230;</a>
+              </h4>
             </div>
             <div class="team__card">
-              <img src="./img/aboutTeam2.jpg" alt="">
+              <img src="./img/aboutTeam2.jpg" alt="" />
               <a class="hober" href="./about.html">Fade Harper</a>
-              <h4>Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in <a class="three-dots" href="./about.html">&#8230;</a></h4>
+              <h4>
+                Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in
+                <a class="three-dots" href="./about.html">&#8230;</a>
+              </h4>
             </div>
             <div class="team__card">
-              <img src="./img/aboutTeam3.jpg" alt="">
+              <img src="./img/aboutTeam3.jpg" alt="" />
               <a class="hober" href="./about.html">John McCoist</a>
-              <h4>Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in <a class="three-dots" href="./about.html">&#8230;</a></h4>
+              <h4>
+                Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in
+                <a class="three-dots" href="./about.html">&#8230;</a>
+              </h4>
             </div>
             <div class="team__card">
-              <img src="./img/aboutTeam4.jpg" alt="">
+              <img src="./img/aboutTeam4.jpg" alt="" />
               <a class="hober" href="./about.html">Sam Kromstain</a>
-              <h4>Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in <a class="three-dots" href="./about.html">&#8230;</a></h4>
+              <h4>
+                Proin dictum elemum velit terdpib sceleue vitaepeecon eoc in
+                <a class="three-dots" href="./about.html">&#8230;</a>
+              </h4>
             </div>
           </div>
         </div>
       </div>
     </section>
-
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -229,5 +246,14 @@
     </footer>
 
 
+  <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="./js/slider.js"></script>
+
+    <script src="./js/toggle__menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

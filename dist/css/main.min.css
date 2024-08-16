@@ -2635,6 +2635,14 @@ p, .homeWhat__card small {
   height: 294px;
 }
 
+@keyframes moveUp {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 .features__wrapper {
   padding: 6rem 0;
   line-height: 1.5rem;
@@ -2678,8 +2686,14 @@ p, .homeWhat__card small {
   padding-bottom: 1.7rem;
   margin-bottom: 3.1rem;
 }
+.history__our {
+  animation: moveUp 1s;
+}
 .history__our h4 {
   margin-top: 1.5rem;
+}
+.history__oppor {
+  animation: moveUp 1s;
 }
 .history__set {
   margin-top: 1.5rem;
@@ -2729,6 +2743,18 @@ p, .homeWhat__card small {
 .team__card .three-dots:hover {
   color: #f8565d;
   transition: ease-in 0.3s;
+}
+.team__card:first-child {
+  animation: moveUp 1.3s;
+}
+.team__card:nth-child(2) {
+  animation: moveUp 0.7s;
+}
+.team__card:nth-child(3) {
+  animation: moveUp 1s;
+}
+.team__card:last-child {
+  animation: moveUp 1.4s;
 }
 
 .blog #bilog {
@@ -2916,6 +2942,9 @@ p, .homeWhat__card small {
     transform: translateY(0);
   }
 }
+.services {
+  z-index: 1;
+}
 .services__baraha {
   animation: moveUp 1s;
 }
@@ -2974,6 +3003,7 @@ p, .homeWhat__card small {
 }
 
 .price {
+  z-index: 999;
   margin: 2rem 0;
   color: #26252a;
 }
@@ -3009,6 +3039,11 @@ p, .homeWhat__card small {
 }
 .price__report {
   max-width: 32%;
+  animation: moveUp 1s;
+  animation-duration: 1.39s;
+}
+.price__list {
+  animation: moveUp 1s;
 }
 .price__halaga {
   display: grid;

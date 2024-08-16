@@ -1,18 +1,19 @@
 @use "../abstract/" as *;
 @use "../base/" as *;
 
-@keyframes moveUp{
+@keyframes moveUp {
   from {
-  transform: translateY(500px);
+    transform: translateY(500px);
   }
   to {
-  transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 .services {
+  z-index: 1;
   &__baraha {
-    animation: moveUp 1s;
+  animation: moveUp 1s;
   }
   p {
     margin-bottom: 3rem;
@@ -73,6 +74,7 @@
 }
 
 .price {
+  z-index: 999;
   margin: 2rem 0;
   p {
     margin-top: 0.7rem;
@@ -107,6 +109,11 @@
   }
   &__report {
     max-width: 32%;
+    animation: moveUp 1s;
+    animation-duration: 1.39s;
+  }
+  &__list {
+    animation: moveUp 1s;
   }
   &__halaga {
     @include evenGrid(3, 2rem);

@@ -1,5 +1,15 @@
 @use "../abstract/" as *;
 @use "../base/" as *;
+@keyframes moveUp {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
 
 .features {
   &__wrapper {
@@ -40,9 +50,13 @@
     }
   }
   &__our {
+    animation: moveUp 1s;
     h4 {
       margin-top: 1.5rem;
     }
+  }
+  &__oppor {
+    animation: moveUp 1s;
   }
   &__set {
     margin-top: 1.5rem;
@@ -95,5 +109,17 @@
         transition: ease-in 0.3s;
       }
     }
+  }
+  &__card:first-child {
+    animation: moveUp 1.3s;
+  }
+  &__card:nth-child(2) {
+    animation: moveUp 0.7s;
+  }
+  &__card:nth-child(3) {
+    animation: moveUp 1s;
+  }
+  &__card:last-child {
+    animation: moveUp 1.4s;
   }
 }
