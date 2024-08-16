@@ -12,19 +12,19 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Header -->
-    <header class="header">
+    <!-- HEADER -->
+    <header class="header" id="header">
       <div class="container">
         <div class="header__wrapper">
           <a href=""
             ><img src="./img/logo.png" alt="" class="header__logo"
           /></a>
-          <ul class="header__nav">
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="active about.html">ABOUT</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contacts.html">CONTACTS</a></li>
+          <ul class="header__nav" data-aos="fade-down" data-aos-duration="1000">
+            <li><a href="home.html" class="text--light">HOME</a></li>
+            <li><a href="about.html" class="active text--light">ABOUT</a></li>
+            <li><a href="services.html" class="text--light">SERVICES</a></li>
+            <li><a href="blog.html" class="text--light">BLOG</a></li>
+            <li><a href="contacts.html" class="text--light">CONTACTS</a></li>
           </ul>
         </div>
       </div>
@@ -193,7 +193,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-          <div class="footer__icons">
+          <div class="footer__icons" data-aos="fade-right">
             <p class="mb--4">
               Car service © 2024 • <a href="">Privacy Policy</a>
             </p>
@@ -220,7 +220,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__address">
+          <div class="footer__address" data-aos="fade-up">
             <ul>
               <li>9863 - 9867 Mill Road,</li>
               <li>Cambridge, MG09 99HT</li>
@@ -240,17 +240,20 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            data-aos="fade-left"
           ></iframe>
         </div>
       </div>
     </footer>
 
+    <!-- BACK TO TOP -->
+    <a href="#header" class="back-to-top btn__circle footer">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
 
-  <!-- SCRIPT -->
+    <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script src="./js/slider.js"></script>
-
-    <script src="./js/toggle__menu.js"></script>
+    <script src="./js/home__slider.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
